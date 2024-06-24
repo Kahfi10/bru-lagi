@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "AVANZA 1.5 G CVT",
+        "price": "90.000.000",
+        "image": "image/avanza.png",
+        "description": "Di tenagai oleh mesin Bensin 1496 cc dengan konfigurasi 4 silinder segaris, 4 valve, DOHC."
+    },
+    {
+        "id": 2,
+        "name": "TOYOTA INNOVA REBORN",
+        "price": "150.000.000",
+        "image": "image/innova.png",
+        "description": "Di tenagai oleh mesin bensin 2.0L (1998 cc)"
+    },
+    {
+        "id": 3,
+        "name": "MAZDA 3",
+        "price": "200.000.000",
+        "image": "image/mazda.png",
+        "description": "Di tenagai oleh mesin Bensin 2488 cc"
+    },
+    {
+        "id": 4,
+        "name": "BRIO RS",
+        "price": "115.000.000",
+        "image": "image/brio.png",
+        "description": "Di tenagai oleh mesin Bensin 1200 cc"
+    },
+    {
+        "id": 5,
+        "name": "DAIHATSU XENIA",
+        "price": "123.000.000",
+        "image": "image/xenia.png",
+        "description": "Di tenagai oleh mesin Bensin 1300 cc"
+    },
+    {
+        "id": 6,
+        "name": "Marcedes G63 AMG",
+        "price": "900.000.000",
+        "image": "image/amg.png",
+        "description": "Di tenagai oleh mesin Bensin 3982 cc"
+    },
+    {
+        "id": 7,
+        "name": "AUDI RS 3 HATCHBACK",
+        "price": "500.000.000",
+        "image": "image/audi.png",
+        "description": "Di tenagai oleh mesin Bensin 1984 cc"
+    },
+    {
+        "id": 8,
+        "name": "PAJERO SPORT",
+        "price": "400.000.000",
+        "image": "image/pajero.png",
+        "description": "Di tenagai oleh diesel 2477 cc"
+    },
+    {
+        "id": 9,
+        "name": "CIVIC TYPE R",
+        "price": "1.000.000.000",
+        "image": "image/civic.png",
+        "description": "Di tenagai oleh mesin Bensin 2000 cc"
+    }
+]

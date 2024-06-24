@@ -1,0 +1,230 @@
+
+
+* {
+    margin: 0; padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border: none;
+    text-decoration: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(255,51,153,.05);
+}
+.heading span{
+    color: cornflowerblue;
+}
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background-color: #333;
+    color: cornflowerblue;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+.btn:hover{
+    background-color: cornflowerblue;
+    color: #333;
+}
+
+header .logo{
+    text-decoration: none;
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+
+header .logo span{
+    color: cornflowerblue;
+}
+
+header .navbar a {
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #666;
+    text-decoration: none;
+}
+ header .navbar a:hover{
+    color: cornflowerblue;
+}
+
+header .icons a{
+    font-size: 2.5rem;
+    color: #666;
+    margin-left: 1.5rem;
+}
+
+header .icons a:hover{
+    color: cornflowerblue;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(/image/2nd.png);
+    border-bottom: #666;
+    border-radius: 20px;
+    background-size: cover;
+
+}
+
+.home .content {
+    max-width: 50rem;
+}
+
+.home .content h3 {
+    font-size: 6dvb;
+    color: #222;
+}
+
+.home .content span {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #eaf1ef;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+.home .content p {
+    font-size: 1.5rem;
+    color: black;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.about .row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+.about .heading{
+    background: #fff;
+}
+.about .row .video-container {
+    flex:1 1 28rem;
+    position: relative;
+}
+
+.about .row .video-container video {
+    width:100%;
+    border:1.5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    height: 60rem;
+    object-fit: cover;
+}
+.about .row .video-container h3{
+    position: absolute;
+    top: 50% ;transform: translateY(-50%);
+    font-size: 3rem;
+    color: #333;
+    background: #fff;
+    width: 100%;
+    padding: 1rem 2rem;
+    text-align: center;
+    mix-blend-mode: screen;
+
+}
+
+.about .row .content {
+    flex: 1 1 40rem;
+}
+
+.about .row .content h3{
+    font-size: 5rem;
+    color: #333;
+}
+
+.about .row .content p{
+    font-size: 3rem;
+    color: #999;
+    padding: .5rem 0;
+    padding-top: 2rem;
+    line-height: 3rem;
+}
+
+
+@media (max-widht:991px){
+    html{
+        font-size: 55%;
+    }
+    header {
+    padding: 2rem;
+    }
+    section{
+        padding: 2rem;
+    }
+    .home{
+        background-position: left;
+
+    }
+}
+
+@media (max-widht:767px){
+    header .logo{
+        font-size: 2.5rem;
+    }
+    header .navbar a{
+        font-size: 1.8rem;
+    }
+    header .icons a{
+        font-size: 2rem;
+    }
+    header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: 1rem solid rgba(0,0,0,.1);
+        display: block;
+    }
+    .home .content h3 {
+        font-size: 5rem;
+    }
+    .home .content span {
+        font-size: 3rem;
+    }
+}
+
+@media (max-widht:450px){
+    html{
+        font-size: 50%;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+
+}

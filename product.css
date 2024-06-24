@@ -1,0 +1,62 @@
+main{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.container{
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.title{
+    font-size: xx-large;
+    padding: 20px 0;
+}
+
+.ListProduct .item img{
+    width: 90%;
+    filter: drop-shadow(0 20px 20px #0009);
+}
+
+.ListProduct{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 40rem);
+    gap: 20px;
+}
+
+.ListProduct .item {
+    background-color: #eeeee6;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.ListProduct .item h2{
+    font-size: large;
+    font-weight: 500;
+}
+
+.ListProduct .item .price {
+    letter-spacing: 5px;
+    font-size: small;
+}
+
+@media screen and (max-widht: 992px) {
+    .ListProduct{
+        grid-template-columns: repeat(3, 10rem);
+    }
+}
+
+@media screen and (max-widht: 768px) {
+    .ListProduct{
+        grid-template-columns: repeat(2, 5rem);
+    }
+}
